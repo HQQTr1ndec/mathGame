@@ -1,8 +1,8 @@
 import random
 
 points = {
-    "comp": 0,
-    "player": 0
+    "comp": 10,
+    "player": 10
 }
 
 

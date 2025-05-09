@@ -25,7 +25,3 @@ while True:
         print("ТЫ ПОТЕРПЕЛ НЕУДАЧУ!!!")
         points["comp"]+=1
     print(f'Счет: {points["player"]}:{points["comp"]}')
-
-
-
-

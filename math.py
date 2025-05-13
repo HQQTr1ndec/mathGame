@@ -4,12 +4,20 @@ points = {
     "comp": 10,
     "player": 10
 }
-
+def is_odd(number:int):
+    if number % 2==0:
+        return False
+    else:
+        return True
 
 
 while True:
     a =random.randint(10,100)
+    if is_odd(a):
+        continue
     b =random.randint(10,100)
+    if  is_odd(b):
+        continue
     op =random.choice(("+", "-"))
     if op =="+":
         ans = a + b
